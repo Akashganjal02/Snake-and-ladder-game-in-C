@@ -74,6 +74,7 @@ void displaychart(int curp,char player[4])
 
 	printf("--------------------------------------------------------------------------\n");
 }
+
 void main()
 {
 	int i,dice,cur_pos1=0,cur_pos2=0;
@@ -86,7 +87,8 @@ void main()
 		printf("2. Player 2 plays\n");
 		printf("3. Exit\n");
 		scanf("%s",&ch);
-	
+\\line added
+	printf("aao khelo aish karo or zindagi ki tension se free ho jao\n");
 		switch(ch)
 		{
 			
